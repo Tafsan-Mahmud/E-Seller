@@ -9,6 +9,7 @@ import img5 from './c-5.jpg';
 const Home = () => {
     return (
         <div className="home-bg">
+        <h1> Hello </h1>
            
         </div>
     );
