@@ -1,0 +1,40 @@
+.checkout-dgn{
+    background: linear-gradient(-45deg, #fab59f , #fda5c7,#a6e7ff, #eafdf9);
+    background-size: 400% 400%;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    animation:change 10s ease-in-out infinite;
+}
+
+.reg-div{
+    background: #f5f5f5;
+    padding: 50px;
+}
+.reg-div input{
+    background: none;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.reg-div h6{
+    margin-top: 18px;
+}
+.payment-section{
+    background-color: #fff9f0;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@keyframes change {
+    0%{
+      background-position: 0 50%;  
+    }
+    50%{
+        background-position: 100% 50%;  
+      }
+    100%{
+        background-position: 0 50%;  
+      }
+
+}

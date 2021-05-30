@@ -1,0 +1,12 @@
+.cstm-btn-pd{
+    border-radius: 2px;
+    border:none;
+    outline: none;
+    background: #0e0d0d;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+}
+.cstm-btn-pd:hover{
+    background: #181818;
+}
