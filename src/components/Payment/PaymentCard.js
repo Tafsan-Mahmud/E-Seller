@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 
 const PaymentCard = () => {
     const stripe = useStripe();
     const elements = useElements();
-
     const handleSubmit = async (event) => {
         // Block native form submission.
         event.preventDefault();
