@@ -1,5 +1,7 @@
-.nav-img{
-    width:90px;
+.nav-logo{
+    font-size:30px;
+    font-weight: 700;
+    color: #1f1f1f !important;
 }
 #navbar-cstm ul li{
     margin-left: 35px;

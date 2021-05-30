@@ -8,7 +8,6 @@ const MainHome = () => {
         <div>
             <Home></Home>
             <Product></Product>
-            <Footer></Footer>
         </div>
     );
 };

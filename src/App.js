@@ -7,6 +7,7 @@ import Details from "./components/Details";
 import MainHome from "./components/MainHome/MainHome";
 import Navbar from "./components/Navbar/Navbar";
 import Checkout from "./components/Checkout/Checkout";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Checkout></Checkout>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </Provider>
   );

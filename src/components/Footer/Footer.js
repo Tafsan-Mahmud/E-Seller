@@ -7,7 +7,7 @@ import twitter from './icon-twitter.png';
 
 const Footer = () => {
     return (
-        <section className="footer-part">
+        <section className="footer-part mt-5">
             <div className="container">
                 <div className="for-bg">
                     <div className="">
@@ -31,7 +31,7 @@ const Footer = () => {
                                 <h6>visite Shop</h6>
                             </div>
                             <div className="col-md-3 col-sm-6 mt-3 mt-md-0 all-text">
-                                <h4>Beard Trim</h4>
+                                <h4>Discount</h4>
                                 <h6>Lorem ipsum dolor sit amet.</h6>
                                 <h6>visite Shop</h6>
                                 <h6>Lorem ipsum dolor sit amet. ispum</h6>
