@@ -10,6 +10,7 @@
 .reg-div{
     background: #f5f5f5;
     padding: 50px;
+    width: 50%;
 }
 .reg-div input{
     background: none;
@@ -25,6 +26,9 @@
     border-radius: 5px;
     margin-bottom: 10px;
 }
+.height-form{
+    height: 120vh;
+}
 
 @keyframes change {
     0%{
@@ -36,5 +40,51 @@
     100%{
         background-position: 0 50%;  
       }
+
+}
+
+@media (max-width: 700px) {
+
+    .reg-div{
+        width: 95%;
+    }
+    .checkout-dgn{
+        height: 130vh;
+    }
+    .height-form{
+        height: 130vh;
+    }
+}
+@media (max-width: 800px) {
+
+    .reg-div{
+        width: 70%;
+    }
+    
+}
+@media (max-width: 500px) {
+
+    .reg-div{
+        width: 97%;
+     }
+   .checkout-dgn{
+        height: 130vh;
+    }
+    .height-form{
+        height: 130vh;
+    }
+
+}
+@media (max-width: 330px) {
+
+    .reg-div{
+        width: 97%;
+    }
+    .checkout-dgn{
+        height: 150vh;
+    }
+    .height-form{
+        height: 150vh;
+    }
 
 }
